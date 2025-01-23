@@ -12,3 +12,5 @@
 </template>
 ```
 
+Need to be able to transfer the settings to the enhancement as needed, because the information contained could be applicable (as it is in this case).
+
