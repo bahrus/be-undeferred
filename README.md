@@ -1,6 +1,12 @@
 # be-undeferred [TODO]
 
 ```html
+<div be-undeferred='{
+    "on": "my-element",
+    "whereMediaMatches": "...",
+    "enhKeys": ["be-switched"]
+}'>
+...
 <template
     be-undeferred='{
         "on": "my-element",
@@ -10,6 +16,8 @@
     be-switched="on when..."
 >
 </template>
+...
+</div>
 ```
 
 Need to be able to transfer the settings (MountObserver) to the enhancement as needed, because the information contained could be applicable (as it is in this case).
